@@ -6,21 +6,14 @@ authentication token for your subscription.
 ## Run it
 
 ```sh
+# Downloads the script from GitHub and runs it in one step.
+#   curl -fsSL   fetch the script; -f fails on HTTP errors, -s hides progress,
+#                -S still shows errors, -L follows redirects.
+#   <( ... )     hand the script to bash as a file rather than a pipe, so stdin
+#                stays on your terminal and the sign-in prompt works.
+#   bash         checks that `claude` is on your PATH, runs `claude setup-token`,
+#                then prints where to store the token.
 bash <(curl -fsSL https://raw.githubusercontent.com/trillium/claude-create-setup-token/main/generate-setup-token.sh)
-```
-
-What that command does, step by step:
-
-```sh
-# curl -fsSL <url>
-#   Downloads the script from GitHub. -f fails on HTTP errors, -s hides progress,
-#   -S still shows errors, and -L follows redirects.
-# <( ... )
-#   Passes the downloaded script to bash as a file, not through a pipe. This keeps
-#   stdin attached to your terminal so the interactive sign-in works.
-# bash <file>
-#   Runs the script. It checks that `claude` is on your PATH, runs
-#   `claude setup-token`, and prints the next step for storing the token.
 ```
 
 Requires Claude Code on your PATH. The script does not store the token. Copy it from the
