@@ -5,6 +5,12 @@ authentication token for your subscription.
 
 ## Run it
 
+1. Open the Terminal app. Press `Command` + `Space`, type `Terminal`, and press `Enter`.
+2. Copy the command in the box below.
+3. Click in the Terminal window, paste the command with `Command` + `V`, and press `Enter`.
+4. Follow the prompts to sign in to Claude.
+5. Copy the token that Terminal prints and keep it somewhere private.
+
 ```sh
 # Downloads the script from GitHub and runs it in one step.
 #   curl -fsSL   fetch the script; -f fails on HTTP errors, -s hides progress,
