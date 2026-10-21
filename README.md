@@ -5,11 +5,15 @@ authentication token for your subscription.
 
 ## Run it
 
-1. Open the Terminal app: click the Finder icon (the blue face) in the Dock, click `Applications` in the left column, open the `Utilities` folder, and double-click `Terminal`.
-2. Copy the command in the box below.
-3. Click in the Terminal window, paste the command with `Command` + `V`, and press `Enter`.
-4. Follow the prompts to sign in to Claude.
-5. Copy the token that Terminal prints and keep it somewhere private.
+<details>
+<summary>1. Open the Terminal app</summary>
+
+Click the Finder icon (the blue face) in the Dock, click `Applications` in the left column, open the `Utilities` folder, and double-click `Terminal`.
+
+</details>
+
+<details>
+<summary>2. Copy the command</summary>
 
 ```sh
 # Downloads the script from GitHub and runs it in one step.
@@ -21,6 +25,29 @@ authentication token for your subscription.
 #                then prints where to store the token.
 bash <(curl -fsSL https://raw.githubusercontent.com/trillium/claude-create-setup-token/main/generate-setup-token.sh)
 ```
+
+</details>
+
+<details>
+<summary>3. Paste the command into Terminal and press Enter</summary>
+
+Click in the Terminal window, paste with `Command` + `V`, and press `Enter`.
+
+</details>
+
+<details>
+<summary>4. Sign in to Claude</summary>
+
+Follow the prompts in Terminal to sign in.
+
+</details>
+
+<details>
+<summary>5. Keep the token</summary>
+
+Copy the token Terminal prints and store it somewhere private.
+
+</details>
 
 Requires Claude Code on your PATH. The script does not store the token. Copy it from the
 output and keep it somewhere private, such as your shell profile or a password manager.
