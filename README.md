@@ -8,7 +8,9 @@ authentication token for your subscription.
 <details>
 <summary>1. Open the Terminal app</summary>
 
-Click the Finder icon (the blue face) in the Dock, click `Applications` in the left column, open the `Utilities` folder, and double-click `Terminal`.
+Press `Command` + `Space`, type `Terminal`, and press `Enter`.
+
+![Mockup of Command + Space opening Terminal](docs/spotlight-open-terminal.svg)
 
 </details>
 
@@ -32,6 +34,8 @@ bash <(curl -fsSL https://raw.githubusercontent.com/trillium/claude-create-setup
 <summary>3. Paste the command into Terminal and press Enter</summary>
 
 Click in the Terminal window, paste with `Command` + `V`, and press `Enter`.
+
+![Mockup of the pasted command in Terminal](docs/terminal-run-command.svg)
 
 </details>
 
