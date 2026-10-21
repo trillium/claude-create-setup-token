@@ -5,7 +5,7 @@ authentication token for your subscription.
 
 ## Run it
 
-1. Open the Terminal app. Press `Command` + `Space`, type `Terminal`, and press `Enter`.
+1. Open the Terminal app: click the Finder icon (the blue face) in the Dock, click `Applications` in the left column, open the `Utilities` folder, and double-click `Terminal`.
 2. Copy the command in the box below.
 3. Click in the Terminal window, paste the command with `Command` + `V`, and press `Enter`.
 4. Follow the prompts to sign in to Claude.
