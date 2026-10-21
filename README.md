@@ -1,4 +1,4 @@
-# claude-setup-token
+# claude-create-setup-token
 
 A small script that runs `claude setup-token` to generate a long-lived Claude Code
 authentication token for your subscription.
