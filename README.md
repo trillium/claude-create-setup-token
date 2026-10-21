@@ -5,17 +5,7 @@ authentication token for your subscription.
 
 ## Run it
 
-<details>
-<summary>1. Open the Terminal app</summary>
-
-Press `Command` + `Space`, type `Terminal`, and press `Enter`.
-
-![Mockup of Command + Space opening Terminal](docs/spotlight-open-terminal.svg)
-
-</details>
-
-<details>
-<summary>2. Copy the command</summary>
+Open Terminal, paste this command, and press `Enter`:
 
 ```sh
 # Downloads the script from GitHub and runs it in one step.
@@ -28,10 +18,19 @@ Press `Command` + `Space`, type `Terminal`, and press `Enter`.
 bash <(curl -fsSL https://raw.githubusercontent.com/trillium/claude-create-setup-token/main/generate-setup-token.sh)
 ```
 
+## Step by step
+
+<details>
+<summary>How to open the Terminal app</summary>
+
+Press `Command` + `Space`, type `Terminal`, and press `Enter`.
+
+![Mockup of Command + Space opening Terminal](docs/spotlight-open-terminal.svg)
+
 </details>
 
 <details>
-<summary>3. Paste the command into Terminal and press Enter</summary>
+<summary>How to paste the command into Terminal</summary>
 
 Click in the Terminal window, paste with `Command` + `V`, and press `Enter`.
 
@@ -40,14 +39,14 @@ Click in the Terminal window, paste with `Command` + `V`, and press `Enter`.
 </details>
 
 <details>
-<summary>4. Sign in to Claude</summary>
+<summary>Sign in to Claude</summary>
 
 Follow the prompts in Terminal to sign in.
 
 </details>
 
 <details>
-<summary>5. Keep the token</summary>
+<summary>Keep the token</summary>
 
 Copy the token Terminal prints and store it somewhere private.
 
